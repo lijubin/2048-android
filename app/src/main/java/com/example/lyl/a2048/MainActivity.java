@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
             gameOver();
             return;
         }
+
         Random random = new Random();
         int resultRandom = random.nextInt(tmpOkArray.size());
         TextView textView = (TextView) viewLists.get(tmpOkArray.get(resultRandom));
